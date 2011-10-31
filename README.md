@@ -1,4 +1,6 @@
-VLSI Verification
+VLSI Verification with Haskell
+
+==============================
 
 Haskell is very good at compiler-like problems, such as generating
 Verilog code. I've often been frustrated by Verilog's lack of power as
