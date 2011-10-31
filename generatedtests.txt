@@ -1,0 +1,434 @@
+
+ //BEGIN GENERATED CODE
+
+breq_ <= 3'b000;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b001;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b001;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b001;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b100;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b001;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b101;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b001;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b010;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b000;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b110;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b000;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b011;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b111;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b000;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b001;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b000;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b011;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b000;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b000;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b100;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b010;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b100;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b100;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b100;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b110;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b100;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b101;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b111;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b000;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b000;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b010;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b001;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b010;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b010;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b010;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b011;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT0 ) begin
+   $display( "Transitioned to: %b (`BGRNT0) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT0)", bgrnt_, `BGRNT0);
+   $finish();
+end
+
+breq_ <= 3'b010;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b100;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b000;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b101;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT1 ) begin
+   $display( "Transitioned to: %b (`BGRNT1) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT1)", bgrnt_, `BGRNT1);
+   $finish();
+end
+
+breq_ <= 3'b000;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+breq_ <= 3'b110;
+$display( "Current state (BGRNT) is: %b. Inputting: %b", bgrnt_, breq_);
+#(STEP * 1)
+if ( bgrnt_ == `BGRNT2 ) begin
+   $display( "Transitioned to: %b (`BGRNT2) OK", bgrnt_);
+end else begin
+   $display( "Transitioned to: %b FAILURE, expected %b (`BGRNT2)", bgrnt_, `BGRNT2);
+   $finish();
+end
+
+ //END OF GENERATED CODE
