@@ -13,4 +13,4 @@ hand-written code that other people used.
 The StringTemplate library worked very nicely for this project.
 
 (For the curious: the particular state machine used here is a bus
-arbitrer.)
+arbiter.)
